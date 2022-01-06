@@ -1,0 +1,105 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+    padding-left: 10px;
+    line-height: 100%;
+}
+.orange-color{
+    color: orange;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+
+.s-width{
+    width: 50%;
+    padding-left: 0%;
+}
+
+.s-width img{
+    width: 100%;
+    
+}
+
+
+.half-width img{
+    width: 90%;
+    
+}
+#line-design{
+    
+    border-left: 5px solid;
+    border-image: linear-gradient(orange,tomato);
+    border-image-slice: 1;
+    
+}
+.submit-btn{
+    color: white;
+    background-color: tomato;
+    padding: 10px 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    
+}
+.centre-alince-font{
+    text-align: center;
+}
+
+.box-set-text{
+    box-shadow: 3px 3px red, -1em 0 .4em olive;
+}
+
+.quarter-width{
+    width: 33%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 40px;
+    padding: 10px 30px;
+}
+.quarter-width img{
+    width: 40%;
+ }
+.desing-formetting{
+    display: flex;
+    margin-bottom: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+
+}
+#first-quarter{
+    background-color: rgb(185, 223, 223);
+}
+#second-quarter{
+    background-color: rgb(164, 219, 176);
+}
+#third-quarter{
+    background-color: rgb(228, 209, 148);
+}
+
+.third-section-header{
+    padding-left: 1%;
+    background-image: url(images/shapes/dream-bg.png);
+    background-repeat: no-repeat;
+    background-size: 6%;
+    background-position-y: 200px;
+}
+
+.forth-section-header{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 200px;
+    background-size: 17%;
+}
+
+.footer-text{
+    padding: 30px;
+    color: white;
+    background-color: rgb(17, 13, 12);
+}
